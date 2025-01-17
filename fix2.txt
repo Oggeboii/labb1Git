@@ -1,0 +1,36 @@
+1- mkdir labb1Git
+   cd labb1Git
+   git init
+2- touch README.md
+   echo -e "duck \nmoose \ncat" >> README.md
+3- git add README.md
+   git commit -S -m "Initial commit"
+4- git branch feature1
+   git switch feature1
+5- öppna README filen och ändra
+   git add README.md
+   git commit -S -m "Swap moose to mouse and add dog"
+6- git switch main
+   öppna README filen och ändra
+   git add README.md
+   git commit -S -m "Swap moose to mahmut"
+7- git merge feature1
+   öppna README filen och lös konflikten
+   git add README.md
+   git commit -S -m "Merge main and feature1
+8- git tag extinct
+9- git reset --hard HEAD~1
+10-git feature2
+11-öppna README filen och ändra
+   git add README.md
+   git commit -S -m "Capitalize first letter for each word"
+12-git switch feature2
+   touch fix1.txt
+   git add fix1.txt
+   git commit -S -m "Add fix1"
+   touch fix2.txt
+   git add fix2.txt
+   git commit -S -m "Add fix2"
+13-git switch main
+   ls
+14-git cherry-pick c133b
